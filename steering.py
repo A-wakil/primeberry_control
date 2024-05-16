@@ -17,9 +17,9 @@ GPIO.setup(servo_pin, GPIO.OUT)
 pwm = GPIO.PWM(servo_pin, 50)
 
 # Start PWM with duty cycle for 0 degrees
-pwm.start(4.5)
-time.sleep(2)
-pwm.ChangeDutyCycle(9.5)
+# pwm.start(4.5)
+# time.sleep(2)
+pwm.start(9.5)
 time.sleep(2)
 pwm.ChangeDutyCycle(7)
 time.sleep(2)
