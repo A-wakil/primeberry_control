@@ -48,16 +48,13 @@ try:
     motor2.run(direction)
     pwm.start(7)
     time.sleep(wait_time)
-    pwm.start(9.5)
     time.sleep(wait_time)
     pwm.start(4.5)
     time.sleep(wait_time)
     pwm.start(7)
     time.sleep(wait_time)
-    pwm.start(4.5)
     time.sleep(wait_time)
-    pwm.start(7)
-    time.sleep(wait_time)
+
 
     # Stop the motor
     motor.run(Adafruit_MotorHAT.RELEASE)
